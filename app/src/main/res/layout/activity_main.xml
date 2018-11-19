@@ -40,6 +40,17 @@
                 android:textColor="#fff" />
 
             <TextView
+                android:id="@+id/bt2_1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bt2_1_bg_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="背景色 点击变色 item"
+                android:textColor="#fff" />
+
+            <TextView
                 android:id="@+id/bt3"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
@@ -71,6 +82,15 @@
                 android:gravity="center"
                 android:text="字体点击变色"
                 android:textColor="@drawable/bt5_text_color_selector" />
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center"
+                android:src="@drawable/image1_src_selector"
+                 />
 
             <TextView
                 android:id="@+id/bt8"
