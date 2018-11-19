@@ -1,0 +1,9 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bt2_bg_selector_pressl" android:state_pressed="true" />
+    <item android:drawable="@drawable/bt2_bg_selector_normal" />
+</selector>
+
+<!-- state_pressed : true指当用户点击或者触摸该控件的状态
+
+ -->
+

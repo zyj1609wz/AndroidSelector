@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bt1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bt1_bg"
+                android:gravity="center"
+                android:text="背景色 圆角"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/bt2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bt2_bg_selector"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="背景色 点击变色"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/bt3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bt3_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="背景色 描边 实心"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/bt4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bt4_bg"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="背景色 描边 虚线"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/bt5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:background="#f55"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="字体点击变色"
+                android:textColor="@drawable/bt5_text_color_selector" />
+
+            <TextView
+                android:id="@+id/bt8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bt8_bg"
+                android:gravity="center"
+                android:text="渐变色 线性"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/bt9"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bt9_bg"
+                android:gravity="center"
+                android:text="渐变色 扫描 sweep"
+                android:textColor="#fff" />
+
+            <TextView
+                android:id="@+id/bt10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bt10_bg"
+                android:gravity="center"
+                android:text="渐变色 径向 radial"
+                android:textColor="#fff" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
